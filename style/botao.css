@@ -1,0 +1,19 @@
+.btn{
+    font-family: var(--fonte);
+    color: var(--branco);
+    cursor: pointer;
+    display: flex;
+    padding: 15px 240px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: var(--cor-highlight);
+    width: 65%;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -6%;
+    margin-left: 305px;
+}

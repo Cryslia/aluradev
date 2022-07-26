@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alura Dev</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+ <body>
+      <header class="cabecalho">
+            <nav class="nav">
+                <img src="./img/Logo.svg" class="container__logo">
+                <input type="search" class="pesquisa" placeholder="Busque por algo">
+                <img src="./img/Photo.svg" class="container__logo">
+                <div class="logo__titulo"><h1>Harry</h1></div>
+            </nav>      
+      </header>
+
+    <section>
+            <div class="menu">
+                <ul class="menu__lista">
+                <li class="menu__titulo">Menu</li>
+                <li class="menu__item">
+                <img src="./img/Icon.svg" alt="Logo do Menu editor de Código" class="imagem__menu">
+                <a href="#" class="menu__link">Editor de Código</a>
+                <li class="menu__item">
+               <img src="./img/comunidade.svg" alt="Logo do Menu da Comunidade" class="imagem__menu">
+               <a href="#" class="menu__link">Comunidade</a>
+                </div>
+    </section>
+      <section class="campo">
+          <div class="campo__principal">
+            <textarea id="story" name="story">const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+
+              const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+              
+              const unfold = (f, seed) => {
+                const go = (f, seed, acc) => {
+                  const res = f(seed)
+                  return res ? go(f, res[1], acc.concat([res[0]])) : acc
+                }
+                return go(f, seed, [])
+              }</textarea>
+          </div>
+          <section class="menu__lateral">
+            <div>
+              <h1 class="titulo__menu">Seu projeto</h1>
+              <input type="text" placeholder="Nome do projeto" class="itens__menu item__menu">
+              <input type="text" placeholder="Descrição do projeto" class="itens__menu iten__menu">
+              <h1 class="titulo__menu">Personalização</h1>
+              <select class="select">
+                <option class="select__item">JavaScript</option>
+                <option class="select__item">HTML</option>
+                <option class="select__item">CSS</option>
+                 </select>
+                 <input type="color" class="color__input">
+                 <button class="botao__menu">Salvar Projeto</button>
+           
+            </div>
+
+          </section>
+   
+        </section>
+        <div class="botoes">
+          <button class="btn">Visualizar com highlight</button>
+
+        </div>
+  </body>
+
+</html>

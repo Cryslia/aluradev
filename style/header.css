@@ -1,0 +1,44 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    align-items: center;
+    display: flex;
+    margin: 16px 90px;
+}
+
+.container__logo{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.2em;
+    
+}
+
+.pesquisa{
+    background-color: rgba(255, 255, 255, 0.16);
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radius: 10px;
+    padding: 1em;
+    width: 600px;
+    margin: 20px 100px 16px;
+}
+
+.logo__titulo{
+    vertical-align: middle;
+    display: inline-block;
+    color: var(--branco);
+    font-family: var(--fonte);
+}
+
+
+
+/* display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 0px;
+width: 724px;
+height: 56px; */
+

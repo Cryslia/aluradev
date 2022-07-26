@@ -1,0 +1,32 @@
+@import url(style/header.css);
+@import url(style/menu.css);
+@import url(style/campo.css);
+@import url(style/botao.css);
+@import url(style/menu-lateral.css);
+:root{
+    --azul-fundo: #051D3B;
+    --branco: #FFFFFF;
+    --fonte: "Inter";
+    --cor-de-fundo: #141414;
+    --fonte-fundo: "Roboto Mono";
+    --cor-borda: #6BD1FF;
+    --cor-highlight: rgba(80, 129, 251, 0.08); 
+}
+
+html{
+    position: relative;
+}
+
+body{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    background-color: var(--azul-fundo);
+    position: relative;
+}
+
+textarea{
+    width: 600px;
+    height: 250px;
+    resize: none;
+}

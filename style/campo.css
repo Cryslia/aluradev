@@ -1,0 +1,22 @@
+.campo{
+    display: flex;
+    justify-content: left;
+    margin-top: -20%;
+    margin-left: 23%;
+    margin-right: 8%;
+    padding: 2%;
+}
+
+.campo__principal{
+    align-items: center;
+    display: flex;
+    justify-content: left;
+}
+
+#story{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: var(--fonte-fundo);
+    border: 20px solid var(--cor-borda);
+    border-radius: 10px;
+}
